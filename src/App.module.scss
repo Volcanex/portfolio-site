@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d3055;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Navbar {
+  align-self: center;
+  position: relative;
+  top: 0px;
+  bottom: 0%;
+}
+.Title {
+  align-self: center;
+  overflow: auto;
+  font-weight: 300;
+  display: inline-block;
 }
